@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CkeditorAngularDemo</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <!-- https://github.com/ckeditor/ckeditor4-angular/issues/142 add external plugin -->
+  <script src="https://cdn.ckeditor.com/4.16.0/full/ckeditor.js"></script>
+  <script>
+    CKEDITOR.plugins.addExternal('pramukhime', '/assets/pramukhime/plugin.js');
+  </script>
+  <app-root></app-root>
+</body>
+</html>
